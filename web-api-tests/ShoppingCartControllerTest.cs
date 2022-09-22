@@ -19,7 +19,7 @@ namespace web_api_tests
             _service = new ShoppingCartServiceFake();
             _controller = new ShoppingCartController(_service);
         }
-
+        /*
         #region Get_WhenCalled_ReturnsOkResult
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()
@@ -51,6 +51,8 @@ namespace web_api_tests
             Assert.IsType<NotFoundResult>(notFoundResult);
         }
         #endregion
+        */
+
         #region GetById_ExistingGuidPassed_ReturnsOkResult
         [Fact]
         public void GetById_ExistingGuidPassed_ReturnsOkResult()

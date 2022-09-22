@@ -33,6 +33,7 @@ namespace web_api_tests
             _shoppingCart.Add(newItem);
             return newItem;
         }
+
         public ShoppingItem GetById(Guid id)
         {
             return _shoppingCart.Where(a => a.Id == id)
